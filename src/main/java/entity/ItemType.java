@@ -17,6 +17,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import org.eclipse.persistence.jpa.config.Cascade;
 
+
+
 /**
  *
  * @author nr
