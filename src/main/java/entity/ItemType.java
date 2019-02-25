@@ -35,6 +35,7 @@ public class ItemType implements Serializable {
     private double price;
 
 
+    
     @OneToMany(mappedBy = "itemtype")
     List<OrderLine> orderlines = new ArrayList();
 
